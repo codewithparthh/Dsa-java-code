@@ -1,5 +1,4 @@
-
-import java.util.*;
+package datatype;
 
 public class BasicCode {
     public static void main(String args[]) {
