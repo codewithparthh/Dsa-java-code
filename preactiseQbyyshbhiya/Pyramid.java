@@ -8,7 +8,7 @@ public class Pyramid {
 
         for(int line=0; line<=n; line++ ){
           
-            for(int number=1; number<=line; number++){
+            for(int number=1; number<=line; number++){ // number<=line; number++
                  
                     System.out.print(even + " ");
                     even += 2;
