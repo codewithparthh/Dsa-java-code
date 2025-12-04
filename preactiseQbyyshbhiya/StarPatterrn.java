@@ -1,10 +1,8 @@
 public class StarPatterrn {
     public static void main(String args[]) {
 
-        for(int line = 1; line <= 44; line++) {
-            System.out.println("*\n*");
+        for(int line = 1; line <= 5; line++) {
+            System.out.println("*");
         }
-
-        System.out.println();
     }
 }
