@@ -9,8 +9,7 @@ public class overloading {
     }
 
     public static void main(String args[]) {
-        System.out.println(sum(3, 5));
-        System.out.println(sum(3, 6, 0));
+        System.out.println(sum(3, 5));   // prints 8
+        System.out.println(sum(3, 6, 7)); // prints 16
     }
-    
 }
