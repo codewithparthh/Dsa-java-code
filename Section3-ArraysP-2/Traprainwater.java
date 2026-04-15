@@ -30,7 +30,7 @@ public class Traprainwater {
     }
 
     public static void main(String args[]) {
-        int height[] = {4,2,0,6,0,5,6};
+        int height[] = {4,2,0,6,0,5,8};
         System.out.println(trappedRainwater(height));
     }
 }
