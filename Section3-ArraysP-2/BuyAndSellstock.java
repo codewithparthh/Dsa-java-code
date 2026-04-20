@@ -18,7 +18,7 @@ public class BuyAndSellstock{
         return maxprofit;
      }
      public static void main (String args[]){
-        int prices[] = {81,69,75,78,43,67};
+        int prices[] = {81,69,75,8,43,67};
         System.out.println(BuyAndSellstock(prices));
      }
 }
