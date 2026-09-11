@@ -1,27 +1,28 @@
 import java.util.*;
 
-public class ReverseArray{
-    public static void reverse (int number[]){
-        int first = 0, last = number.length-1;
+public class Bubblesort{
 
-        while (first < last){
-
-            int temp = number [last];
-            number [last] = number [first];
-            number [first] = temp;
-
-            first ++;
-            last --;
+    public static void bubblesort(int arr[]){
+        for(int turn=0; turn<arr.length-1; turn++){
+            for(int j=0; j<arr.length-1-turn; j++){
+                if(arr[j] > arr[j+1]){
+                    // swap
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
         }
     }
+
     public static void main (String args[]){
-        int number [] ={2,4,6,8,10};
+        int arr[] = {3,5,1,8,9,6};
 
-        reverse (number);
+        bubblesort(arr); // function call ✅
 
-        for(int i=0; i<number.length; i++){
-            System.out.print(number[i]+" ");
+        // print sorted array
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
         }
-        System.out.println();
     }
 }
