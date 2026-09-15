@@ -1,4 +1,4 @@
-import java.util.*;
+Reversing_quesimport java.util.*;
 public class SwitchExample {
     public static void main (String args[]){
        int number = 9
